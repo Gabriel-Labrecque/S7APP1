@@ -42,7 +42,7 @@ services:
       - serveur-app
     container_name: node_client
     dns:
-      - 172.20.0.2
+      - 172.25.0.2
     volumes:
       - ./src/client:/app
       - ./cert:/app/cert

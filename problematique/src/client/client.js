@@ -16,10 +16,15 @@ const options = {
 console.log(`Sending HTTPS request to server`)
 const req = https.request(options, res => {
 
-    console.log(`Response received. Status code : ${res.statusCode}`);
-    res.on('data', data => {
-        process.stdout.write(data);
-    });
+    if (res.statusCode === 200) {
+        res.on('data', data => {
+            process.stdout.write(data);
+        });
+    } else {
+        console.error(`Request failed. Status Code: ${res.statusCode}`);
+        // Optional: consume response data to free up memory
+        res.resume();
+    }
 });
 
 req.on('error', error => {

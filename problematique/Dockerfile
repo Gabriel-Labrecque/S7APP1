@@ -1,10 +1,8 @@
 FROM node:18-slim
-WORKDIR /usr/src/app
+WORKDIR /app
 
-RUN chown -R node:node /usr/src/app
-COPY --chown=node:node package*.json ./
+RUN chown -R node:node /app
 USER node
-RUN npm install --only=production
 COPY --chown=node:node . .
 
 EXPOSE 8443
