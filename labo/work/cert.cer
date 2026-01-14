@@ -1,0 +1,93 @@
+Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number: 1 (0x1)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=CA, ST=Quebec, L=Sherbrooke, O=Universite de Sherbrooke, OU=GEGI, CN=autorite/emailAddress=autorite@gegi
+        Validity
+            Not Before: Jan 10 21:42:27 2026 GMT
+            Not After : Jan 10 21:42:27 2027 GMT
+        Subject: C=CA, ST=Quebec, O=Universite de Sherbrooke, OU=GEGI, CN=gei761
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:de:16:80:ea:78:0e:f9:88:79:09:d9:59:62:4d:
+                    89:15:14:b9:df:47:c9:6f:dc:b6:80:ee:51:6b:9a:
+                    a8:0e:9c:bb:1d:05:ed:32:00:87:84:2f:99:5b:0c:
+                    1d:1f:b2:03:22:96:09:37:e1:29:a0:3e:4b:80:f9:
+                    2a:6f:61:34:ed:19:b5:6e:e7:fe:73:a6:60:20:c1:
+                    2a:68:3a:3a:33:3d:17:4c:02:6b:b4:27:72:0d:b7:
+                    e4:6f:20:be:da:2d:5b:30:0f:06:4b:1b:ca:cb:11:
+                    14:01:b3:f3:65:b9:84:6c:7c:2f:d2:4c:ef:cc:21:
+                    7d:6d:b1:b9:6b:45:dd:ab:b5:df:cb:23:7c:65:e6:
+                    86:19:dc:ca:fe:db:9f:4d:0a:11:d5:e9:59:ef:ad:
+                    0c:72:71:34:98:a9:d8:12:6e:49:f6:2c:43:cb:32:
+                    84:e4:0b:ca:f7:4c:36:5b:14:ed:1a:4d:ac:1e:70:
+                    42:41:96:86:94:41:78:7f:2a:8b:c2:1e:4e:89:58:
+                    a9:e8:19:75:36:e2:32:cb:15:f0:cb:84:44:1e:f4:
+                    0e:e1:74:1b:47:69:dd:b0:56:29:9b:31:5b:5b:47:
+                    68:f1:ad:0b:f8:61:79:a4:21:1f:80:15:e3:0c:d9:
+                    89:20:b1:87:d2:33:fe:98:d4:be:94:6a:f0:d7:62:
+                    09:64:61:f6:8b:5b:67:d1:af:13:64:37:e2:05:08:
+                    6c:e8:94:bc:8d:37:05:0a:72:13:da:33:41:3e:d8:
+                    95:42:7a:94:a3:93:2c:95:09:a6:53:8e:35:19:cd:
+                    73:bb:a4:1b:50:01:77:24:e8:e0:86:1d:0b:05:6e:
+                    12:1d:b6:a2:cf:90:e4:9f:e6:c2:e8:0d:70:30:22:
+                    e5:0f:a3:57:87:5f:06:83:29:8e:dc:4c:98:2b:99:
+                    87:84:d7:48:63:f3:69:a9:66:5e:f6:68:6b:ee:61:
+                    1f:6b:32:26:b7:92:22:a2:f4:09:b7:b9:85:2a:42:
+                    56:fe:02:f9:80:bd:0d:44:7f:bb:2b:58:43:52:ce:
+                    3f:f8:60:14:13:43:13:de:1a:05:6c:32:1a:2c:a8:
+                    96:9d:40:b2:fa:28:b1:15:89:1f:db:b8:79:73:21:
+                    35:e4:c8:44:c4:84:c9:12:e0:64:e0:25:b0:63:9a:
+                    43:6a:34:cc:24:1e:6a:fa:11:4f:d5:f2:74:72:f8:
+                    23:1b:2b:82:8a:2a:8e:b7:66:ca:99:be:93:00:68:
+                    20:fb:c9:53:18:30:75:92:72:01:e6:92:7f:fe:00:
+                    ca:f1:02:73:97:b3:67:d9:e6:2d:bd:c3:d2:7a:99:
+                    84:9a:6b:9d:ef:9a:06:75:2c:92:1b:27:e0:fb:76:
+                    dc:66:b5
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: sha1WithRSAEncryption
+    Signature Value:
+        72:f6:d2:c2:38:97:2d:04:23:da:a7:23:39:6c:da:1f:c7:67:
+        d1:1d:1f:c0:48:ec:d7:45:4a:9e:54:fa:4c:48:f8:59:da:9e:
+        8b:4b:47:28:b3:21:34:76:b5:c5:1a:c6:65:6a:30:9c:47:8a:
+        5b:fb:fc:72:d1:c0:37:74:86:8e:c1:d9:45:56:b8:f8:38:31:
+        59:ee:98:ac:33:c6:de:ad:89:3a:a6:67:e1:06:8a:78:7c:c0:
+        ba:56:30:4a:71:fc:e4:e4:b4:94:1c:49:1d:a7:58:0b:68:4c:
+        5d:b2:d7:5d:e3:18:74:40:ce:c7:1e:5b:93:4d:d1:0d:75:26:
+        38:90:db:b2:ac:a7:50:0e:1b:c1:f3:dd:44:63:55:25:71:da:
+        a0:09:28:e2:c0:10:38:bc:e2:f9:67:68:f6:04:f1:96:10:71:
+        05:19:e9:c5:68:3f:97:67:46:63:7d:a5:bb:9a:a4:08:f1:8f:
+        b2:b6:39:21:94:42:85:c8:fc:ec:4f:46:95:1e:a6:56:a6:99:
+        29:4c:cc:24:b0:56:fc:6b:8f:63:0c:dc:65:37:99:82:6e:49:
+        67:77:61:c4:7d:0e:4d:aa:58:0f:f3:e1:58:02:7e:4c:cd:7c:
+        4c:a3:12:70:3f:f0:ff:46:72:cf:da:9a:34:cf:37:e0:0a:a8:
+        af:1e:5e:aa
+-----BEGIN CERTIFICATE-----
+MIIEbDCCA1QCAQEwDQYJKoZIhvcNAQEFBQAwgZYxCzAJBgNVBAYTAkNBMQ8wDQYD
+VQQIDAZRdWViZWMxEzARBgNVBAcMClNoZXJicm9va2UxITAfBgNVBAoMGFVuaXZl
+cnNpdGUgZGUgU2hlcmJyb29rZTENMAsGA1UECwwER0VHSTERMA8GA1UEAwwIYXV0
+b3JpdGUxHDAaBgkqhkiG9w0BCQEWDWF1dG9yaXRlQGdlZ2kwHhcNMjYwMTEwMjE0
+MjI3WhcNMjcwMTEwMjE0MjI3WjBhMQswCQYDVQQGEwJDQTEPMA0GA1UECAwGUXVl
+YmVjMSEwHwYDVQQKDBhVbml2ZXJzaXRlIGRlIFNoZXJicm9va2UxDTALBgNVBAsM
+BEdFR0kxDzANBgNVBAMMBmdlaTc2MTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCC
+AgoCggIBAN4WgOp4DvmIeQnZWWJNiRUUud9HyW/ctoDuUWuaqA6cux0F7TIAh4Qv
+mVsMHR+yAyKWCTfhKaA+S4D5Km9hNO0ZtW7n/nOmYCDBKmg6OjM9F0wCa7Qncg23
+5G8gvtotWzAPBksbyssRFAGz82W5hGx8L9JM78whfW2xuWtF3au138sjfGXmhhnc
+yv7bn00KEdXpWe+tDHJxNJip2BJuSfYsQ8syhOQLyvdMNlsU7RpNrB5wQkGWhpRB
+eH8qi8IeTolYqegZdTbiMssV8MuERB70DuF0G0dp3bBWKZsxW1tHaPGtC/hheaQh
+H4AV4wzZiSCxh9Iz/pjUvpRq8NdiCWRh9otbZ9GvE2Q34gUIbOiUvI03BQpyE9oz
+QT7YlUJ6lKOTLJUJplOONRnNc7ukG1ABdyTo4IYdCwVuEh22os+Q5J/mwugNcDAi
+5Q+jV4dfBoMpjtxMmCuZh4TXSGPzaalmXvZoa+5hH2syJreSIqL0Cbe5hSpCVv4C
++YC9DUR/uytYQ1LOP/hgFBNDE94aBWwyGiyolp1AsvoosRWJH9u4eXMhNeTIRMSE
+yRLgZOAlsGOaQ2o0zCQeavoRT9XydHL4Ixsrgooqjrdmypm+kwBoIPvJUxgwdZJy
+AeaSf/4AyvECc5ezZ9nmLb3D0nqZhJprne+aBnUskhsn4Pt23Ga1AgMBAAEwDQYJ
+KoZIhvcNAQEFBQADggEBAHL20sI4ly0EI9qnIzls2h/HZ9EdH8BI7NdFSp5U+kxI
++FnanotLRyizITR2tcUaxmVqMJxHilv7/HLRwDd0ho7B2UVWuPg4MVnumKwzxt6t
+iTqmZ+EGinh8wLpWMEpx/OTktJQcSR2nWAtoTF2y113jGHRAzsceW5NN0Q11JjiQ
+27Ksp1AOG8Hz3URjVSVx2qAJKOLAEDi84vlnaPYE8ZYQcQUZ6cVoP5dnRmN9pbua
+pAjxj7K2OSGUQoXI/OxPRpUeplammSlMzCSwVvxrj2MM3GU3mYJuSWd3YcR9Dk2q
+WA/z4VgCfkzNfEyjEnA/8P9Gcs/amjTPN+AKqK8eXqo=
+-----END CERTIFICATE-----
