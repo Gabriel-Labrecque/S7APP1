@@ -1,0 +1,179 @@
+; File written on Wed Jan 14 00:03:57 2026
+; dnssec_signzone version 9.18.39-0ubuntu0.24.04.2-Ubuntu
+gei761.com.		86400	IN SOA	dns.gei761.com. admin.gei761.com. (
+					2026011302 ; serial
+					3600       ; refresh (1 hour)
+					1800       ; retry (30 minutes)
+					604800     ; expire (1 week)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 8 2 86400 (
+					20260213040357 20260114040357 6124 gei761.com.
+					QOu8NHxn2dHuYFpCrWiWWYbnozOipjN5CXXz
+					FI4mIIl9x3vo/V3ammY5CTb+4LnSRXyf5Ku6
+					eqBuYK+Zu9q+tQAh/Lxf6XbqfN3SOq2cWg4r
+					aBvs9Nm4rlkKFdMl86Fw4YaNO3QOG+7/AINQ
+					muFxyL46Au2osN0jEhUdCTNxiUfOTPeSj6EN
+					Niy+lPOUI0YmB+sANhY/BmwdwDAWCnkbWNB0
+					5D/elSASy5rfLXQjeEN/qx2kBXyOSprO5jAN
+					Q6rymKq520T/YQe1qzlKRjT4VtljiGAe3rFm
+					tAOReygTBKSTsYnuzZ9B9uc/Jc5eugW4OkFO
+					nO/N4lU0DZol9faneA== )
+			86400	NS	dns.gei761.com.
+			86400	RRSIG	NS 8 2 86400 (
+					20260213040357 20260114040357 6124 gei761.com.
+					ryM7wSAVRixXqx5tEcs/uGdmkG5PMf403cBG
+					ZspWt+jTPmrvAqQQGltX6lDkOjCNFNJ3b60j
+					7Qbm6X50us2NeLjy3UR0kuQIlYfxGfeUQgux
+					RXuYImlxnW9r2ZvRbEk8Syn7U33EJraUqJIO
+					WxigK+6m8he2/42KmGQfOW4L+v5EKIT9NyAO
+					Hz+IhpfCzxxoQiMHiFH3nEu5ESxZznmROmIZ
+					2Rg+ZDSJEhPL0Ha+Ni9upiXQuv2GCfUGNfxE
+					ey01C3l/ZkqjihH0DlQVZ3GH/ji9e2KquAz3
+					+KuLAHtAEf803ZK2U1njTeEPJ1L5LEAwTUFj
+					xFounB1qW4qbgJ7bBA== )
+			86400	MX	10 serveur-app.wagei761.com.
+			86400	RRSIG	MX 8 2 86400 (
+					20260213040357 20260114040357 6124 gei761.com.
+					0Zo2uQO1yXX7aLJ14A6vjcXXWmEn8XcYIXVr
+					ToHHrSNmRz8DceUQyJru9QDw7qgmZbuR/95m
+					buYL5gJrL9bOZSfDNkCuPX8rp4vyRZtRkErL
+					Zmg+cyN6Gj2W9DC+N83ZKsyeaH1PDqjit3aZ
+					Qx5LjuZdPG1KiYfpN1vOBbYFpAvbXEiXPquy
+					DrqjX4kb0mg1NYTvzXtpiK7955F36QKc0CB1
+					IaiJoEWRX4nmi5zUN2lxcJ8wI3nXryYUoYL7
+					M3i76Clrk8pAl/3b1P4pTU4AiMYz+dAPWfSF
+					0HtADehg4qoQMUIg86+mAmG0Yi53JAD2HuPR
+					TS06wgRHSbhZ9qOcaQ== )
+			86400	DNSKEY	256 3 8 (
+					AwEAAdh10ZjDqUcfK+DKBnjvd1E7XYYNefnv
+					ELALaaEtPpaNImiXbtJp3xVWvE1zueETwPXO
+					2bkDHa/6F31z3WoxtecGQ0HhpYFn+ct3gjR8
+					CXnuOmbwwDwMhOG61Xt2rLtds5iv0SwQTwSc
+					ZvWA2GlkSA5V4L13lPMtcc+CFwJlQETQOx8Y
+					CEbBF3JKL4nCuZniOqsAOtJgANkCTssNl4iE
+					Tkxx1SMr1XcVTBGq/o/KrlNcZWHSwnmXGzxQ
+					yjUOuYEOlqoUWI9ak2QaPirfFrT4Tc6gWPRQ
+					xr0NF3NPAPzuEPgaISEljiAhyxFUhwMXN7FG
+					rmYJCmHO0O2QIxFIjZjQBMM=
+					) ; ZSK; alg = RSASHA256 ; key id = 6124
+			86400	DNSKEY	257 3 8 (
+					AwEAAcrK4RFZDcdvuAVaVGTfZ5aTjlMfDMvg
+					qO0jLvPlzDD8EDHBNL/cpDrSmjMhjgEIZcZg
+					kVCYzDM0pQxFllKhT5kf0D/5vCcs7nedR0Pw
+					1MfN7uA0hoqiAggdBZJcl73KC490GxyLne5S
+					Yembx/vu64C41pmniMGiwy1cDeUg2sckhzCt
+					C3e44/GBwxcoYBYi6NMKXlHhPg103hErZWjk
+					kzZkCj5vcrVkxxeYVyacmirHLmsC8FP7Yo5c
+					S/jUeive5EPYVZdl2jN6gkfCHEOSRHLTmUTQ
+					I9pA3O5RNBTLczK2TsGmCDMUU0XvWL+sM+S3
+					US8j01X52Cugj9vvPsgLwcU=
+					) ; KSK; alg = RSASHA256 ; key id = 25252
+			86400	RRSIG	DNSKEY 8 2 86400 (
+					20260213040357 20260114040357 6124 gei761.com.
+					W29FbZC3irm2nJPaF1U6ri8Iso9EAZbwbFGu
+					PbRF0wR1BkYYhBCZXNEv4UlvGtXZmLgyw76X
+					ntm4dia82tfJpSqYlQ+qD+XG+vGdvqf/0w1m
+					F6b+cvg9+PpAmHWGQOdX5MWPUf1L3oZeTjhl
+					1Tm1RGNpq1Q5HqTf0UwmUa5Z7RLzT3kS2gKC
+					Y2ELlKOZ0vcKqBj3uogdcJwwKYuZ4hrFUTlF
+					2AsdpFq/+IwTIroIMbin3zFdFaJbTvUhMpVa
+					flO0UbgvWLDgvykC2DcerzahQRuynhRAbBaM
+					sIgxe1UK+ygsh/KC75zex++5uZWcZcG/KmA5
+					f0p8i8juMX50pkEdCA== )
+			86400	RRSIG	DNSKEY 8 2 86400 (
+					20260213040357 20260114040357 25252 gei761.com.
+					PAx/4vF8MSSz5ajVL8oS/AJNaS33Z+3zcjpB
+					FCrmYwKxdZmJmEtAIjL9zsLQO3EuZLocY3UO
+					nZu4+C4NmJFyeoxi8i0DgJzBQakJb2FNHIST
+					e/VNijc/yTSGnVV75CmkEYE0xUppzKmBCtGy
+					dPLQVpTNLiilUKSjPYGwkXPhPf+7l7l6bw+m
+					+2ZCJNLVOZ9AfJOhIAxhSfEZ81ok8HmJRbGM
+					jlbTMpdsdbS/qmeDPKF0+wHFxtlAIQndQu2s
+					DjGmwJnT4eS99N12/gAUzb7C8WVFsxWYq8zi
+					G8gUh+SHJjsWGxd2w4SZKn5cDsxCwPqCElWM
+					MJHcirNBRRSpAvGGow== )
+			0	NSEC3PARAM 1 0 0 B0D4A570191667CC
+			0	RRSIG	NSEC3PARAM 8 2 0 (
+					20260213040357 20260114040357 6124 gei761.com.
+					wzf5VPyC7HdKnNCJIq+GQ1FWPej+6nL4KW+u
+					58rzKzpTEV1iJ0oUS/f/24gK/bR9CmqFnRXP
+					fYBDGts1eMHpfGmmPKZwvfw64b5abVgBrn7Z
+					zaSDnqdrTEcJQA8lzcrACEkHGGzUR+2HVxSX
+					LsCIzpi154wsLZqeiSJgJK16UhJnMN0khEMe
+					vshlBolCjSfcEOZe4FI+55MiFhQPwrJqy89T
+					dSNz/6TvODUUlRFLm4/8qeczdSD7tUObdMEp
+					nRuSrI6d5nfD1X+DjkTh5Kejzm/Bd+4DOoAL
+					gx4/0Q7Tzr34RXZX5UFNwDeaQBkWeA8lbmSj
+					Ez8J8hqgFEYINLfpZg== )
+serveur-app.gei761.com.	86400	IN A	172.25.0.3
+			86400	RRSIG	A 8 3 86400 (
+					20260213040357 20260114040357 6124 gei761.com.
+					sUD7PaWn2HXJcHbPmCBBb9gykuF5+lGZuzLj
+					iBBeAPV0zDGtoKcgE+mnqx8tKGhgvOsoy8xG
+					wC7Tcrtbf+9jiEjfbZMWcJjQkQILusEOVkBZ
+					/O0KJ4wv10aaW4020TDVPZqpMadcfoK6bk5M
+					FjdwGhfAEQq94watd6U/cSdme8Wsya/oGzdm
+					E6AHh2pNeLdYYZPJ7id4dnBovnWQ3CWZJEv/
+					OdssEaUr2xpS0H2u0V5roD2WQ3DcBL8shXYD
+					5zlRgJDHV89LLBOOCNNcnHdiparxeIt8wBJd
+					iYHVRz1cD5jp19GjpPGa7XOYepOgPXtfsI1T
+					fRYq3nZT7uLk9m+0kg== )
+SR2K2SOAR30OEDFBSC059KM6S1OLDLQ0.gei761.com. 86400 IN NSEC3 1 1 0 B0D4A570191667CC (
+					IM6K9BK572R2B7DOENMRH2CN8CQS3IJV
+					NS SOA MX RRSIG DNSKEY NSEC3PARAM )
+			86400	RRSIG	NSEC3 8 3 86400 (
+					20260213040357 20260114040357 6124 gei761.com.
+					ePFPk9UPuMERVTLc3Tvz3JLeCzh96GFlb/xa
+					QaDxaaRKNAHQV66uRsOh+npzuMhghXBoOcor
+					ZG82jn+MWmF+2yX1o5HUmZiN/1x9NLlV13qZ
+					2ZTN7b8+XCjVcybpb6qaiVBTiG8i/84AuCRu
+					bLE7kpYIBYknoD8iGFrT/Ky5CEVmUbAbYBID
+					XBzoaOrWa/jTpZaqUz7p+p2DU1tcfaGNvXck
+					crDUTmBpJFvE0ZO/FxtlEITzfWaPfLdJ76NS
+					YFGQY1TTO2T09GjLzsYxUdq9besGSZ07ZUa8
+					KiafnfOhX5QNLhgJooJsBTae9EeEfyZ6kGbG
+					MgcZy2ixgIXJwAWh4Q== )
+IM6K9BK572R2B7DOENMRH2CN8CQS3IJV.gei761.com. 86400 IN NSEC3 1 1 0 B0D4A570191667CC (
+					L0MLBD39ROT2NABCBH819K71QOVTVEU9
+					A RRSIG )
+			86400	RRSIG	NSEC3 8 3 86400 (
+					20260213040357 20260114040357 6124 gei761.com.
+					Iy+Rk+IdCfJLK3cMny3vUWlIVFb0y8MQLVAj
+					2mq6XAqSmkie+6QEjGJfMVBlOfUf2eF782/H
+					vvOW030ei93HGBtrBmzJyaX5ajqif1U9VsTM
+					dhhlWB7cotya1tJTS5qjUzjK+XOg+gapli6J
+					930eumE1PHCYgu9oWJE21SwFZVMhHHjLWZzY
+					gfcGhku1lJKpPcHxL8W57hNyO8LIqMP4BXIR
+					KwnFvZME/9QVU3zcMzOionq64hb3fKp53g/Y
+					E8Toy/o4K06buLcwJBPXhsKyiwl/iCvp/kWu
+					z4fUh+ZiRIyxH0rmKGs251F6UENL5a0NfjA7
+					CEWJoQi0mQ4OLsWQyQ== )
+dns.gei761.com.		86400	IN A	172.25.0.2
+			86400	RRSIG	A 8 3 86400 (
+					20260213040357 20260114040357 6124 gei761.com.
+					1slb2zkhai0Jb+f5+ivRD7VLj41u0ymHGn7M
+					E26GRDX7EgRoBG1kRdeO74VIjjVGy6uMH7wZ
+					zWoPi6FqjJwwBQQn56/RudtrdJRTikq3gLH3
+					jqK5wdKFTwKXGfMgYE4QHRqygO5LVcg9zTTq
+					H7fxv39v/6Az6kdadVum0LYYWlCLU9tv0JX9
+					qzUBTS7gWuv8g1rm3r2oigpMkUk4E+CqSfav
+					m3C9+fFVrAKPOvNmw0a/REmnlTS/u65FpjLl
+					laaKV/DTA3Vy67taaKverdnzqXFX5OCvbhgU
+					m1ZXaZ292k08zM5FsHXz2yqJndYgMUEHwa7U
+					Im2JwGKt3pO8FNeNLw== )
+L0MLBD39ROT2NABCBH819K71QOVTVEU9.gei761.com. 86400 IN NSEC3 1 1 0 B0D4A570191667CC (
+					SR2K2SOAR30OEDFBSC059KM6S1OLDLQ0
+					A RRSIG )
+			86400	RRSIG	NSEC3 8 3 86400 (
+					20260213040357 20260114040357 6124 gei761.com.
+					KxWml8WYUrtm5Y2Z338itd2sIoYOXQDa0vSe
+					gQo4RTmP9lj9q2i/am1fSoLScDSR/8wISxXg
+					+ITKCQukO4srCqtdouo0JfPo+F8u6Ipteql7
+					gmsnTwDDgK6GCtoBS5OuaVeZ4ogG+KjnAOMJ
+					Iid6X4wZWqwuN0sEWKErhMQdCKhhRnTu1ZYD
+					p4XCeA/9WvpYDFsjs6TIU0AXqIYugiD3Gpzo
+					gM18dNz4t4y5rCsLlt9IG2lfB0jspF9RgLOn
+					/v/qV4oDheVm+zT6bWg6bXA19jwcssKw6F53
+					qNOtPisdDJnXj4sjqUpIDEPsxq0xZ+/aAAlE
+					O7okaME4o6lZi+ypBw== )

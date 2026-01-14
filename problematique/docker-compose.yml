@@ -2,34 +2,44 @@ services:
   dns-secure:
     image: ubuntu/bind9:latest
     container_name: dns
+    user: root
+    entrypoint: >
+      /bin/sh -c "
+      chown -R bind:bind /etc/bind /var/cache/bind &&
+      exec /usr/sbin/named -u bind -g -4
+      "
     ports:
-      - "5353:53/udp"
-      - "5353:53/tcp"
+      - "5454:53/udp"
+      - "5454:53/tcp"
     volumes:
       - ./dns:/etc/bind
       - ./dns_cache:/var/cache/bind
     networks:
       mTLS-net:
-        ipv4_address: 172.20.0.2
+        ipv4_address: 172.25.0.2
 
   serveur-app:
     build:
       context: .
       dockerfile: Dockerfile
+    depends_on:
+      - dns-secure
     container_name: node_server
     ports:
-      - "443:443"
+      - "443:8443"
     volumes:
       - ./src/serveur:/app
       - ./cert:/app/cert
     networks:
       mTLS-net:
-        ipv4_address: 172.20.0.3
+        ipv4_address: 172.25.0.3
 
   client-app:
     build:
       context: .
       dockerfile: Dockerfile
+    depends_on:
+      - serveur-app
     container_name: node_client
     dns:
       - 172.20.0.2
@@ -48,5 +58,5 @@ networks:
     enable_ipv6: false
     ipam:
       config:
-          - subnet: 172.20.0.0/24
-            gateway: 172.20.0.1
+          - subnet: 172.25.0.0/24
+            gateway: 172.25.0.1
