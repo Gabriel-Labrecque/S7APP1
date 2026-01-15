@@ -1,34 +1,48 @@
 const https = require('https');
 const fs = require('fs');
 
-// Configurating the HTTPS request that will be sent to the server
+// Configurating the HTTPS request with mTLS
 const options = {
-    hostname: 'serveur-app.gei761.com', // DNS should resolve this
-    port: 443, // I'm being explicit here
+    hostname: 'serveur-app.gei761.com',
+    port: 443,
     path: '/',
-    method: 'GET',
+    method: 'POST',
     key: fs.readFileSync('/app/cert/client.key'),
     cert: fs.readFileSync('/app/cert/client.crt'),
     ca: fs.readFileSync('/app/cert/ca.crt'),
+    headers: {
+        'Content-Type': 'application/json'
+    }
 };
 
-//Building the request
-console.log(`Sending HTTPS request to server`)
-const req = https.request(options, res => {
+console.log('=== Dual Authentication Demo ===\n');
+console.log('Sending HTTPS request with:');
+console.log('  1. Client certificate (Application authentication)');
+console.log('  2. User credentials (User authentication)\n');
 
-    if (res.statusCode === 200) {
-        res.on('data', data => {
-            process.stdout.write(data);
-        });
-    } else {
-        console.error(`Request failed. Status Code: ${res.statusCode}`);
-        // Optional: consume response data to free up memory
-        res.resume();
-    }
+// Building the request
+const req = https.request(options, res => {
+    let data = '';
+    res.on('data', chunk => { data += chunk; });
+    res.on('end', () => {
+        console.log(`Server Response (${res.statusCode}):`);
+        console.log(data);
+        
+        if (res.statusCode === 200) {
+            console.log('✓ Both authentications successful!');
+        }
+    });
 });
 
 req.on('error', error => {
-    console.error(`ERROR : ${error.message}`);
+    console.error(`ERROR: ${error.message}`);
 });
 
+// Send user credentials
+const credentials = JSON.stringify({
+    username: 'newton',
+    password: 'password123'
+});
+
+req.write(credentials);
 req.end();

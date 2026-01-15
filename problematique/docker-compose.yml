@@ -30,6 +30,7 @@ services:
     volumes:
       - ./src/serveur:/app
       - ./cert:/app/cert
+      - ./src/serveur/users.json:/app/users.json:ro
     networks:
       mTLS-net:
         ipv4_address: 172.25.0.3
@@ -50,7 +51,7 @@ services:
       - mTLS-net
     tty: true
     stdin_open: true
-    entrypoint: ["node", "/app/client.js"]
+    command: sleep infinity
 
 networks:
   mTLS-net:
